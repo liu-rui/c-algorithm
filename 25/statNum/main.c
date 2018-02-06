@@ -3,9 +3,8 @@
 int main() {
     int n;
 
-    while (scanf("%d", &n) != EOF) {
-        if (n == 0) break;
-        int scores[101];
+    while (scanf("%d", &n) != EOF && n != 0) {
+        int scores[101] = {0};
         int score;
 
         for (int j = 0; j < n; j++) {
